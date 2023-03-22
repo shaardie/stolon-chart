@@ -35,6 +35,10 @@ spec:
 {{ toYaml .Values.job.annotations | indent 8 }}
 {{- end }}
     spec:
+{{- with .Values.image.pullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+{{- end }}
       restartPolicy: Never
       {{- with .Values.job.initdbScripts.podSecurityContext }}
       securityContext:
