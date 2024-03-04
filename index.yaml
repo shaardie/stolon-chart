@@ -18,6 +18,6 @@ entries:
     - https://github.com/sorintlab/stolon
     - https://github.com/lwolf/stolon-chart
     urls:
-    - https://shaardie.github.io/stolon-chart/stolon-1.7.0.tgz
-    version: 1.7.0
+    - https://shaardie.github.io/stolon-chart/stolon-1.7.1.tgz
+    version: 1.7.1
 generated: "2023-03-22T13:27:31.578235752+01:00"
